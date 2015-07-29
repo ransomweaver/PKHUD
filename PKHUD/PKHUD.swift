@@ -66,7 +66,7 @@ public class PKHUD {
     
     // MARK: Helper
     
-    internal func hideAnimated() -> Void {
+    @objc func hideAnimated() -> Void {
         hide(animated: true)
     }
 }
